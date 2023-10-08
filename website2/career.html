@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>career</title>
+    <link rel = "stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel ="stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class ="footer">
+        <nav>
+           <a href ="index.html"><img src="images/coffee.png.jpeg""></a>
+           <div class ="nav-links" id="navL inks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href ="index.html">HOME</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href ="">COMPANY</a>
+                        <div class="dropdown-content">
+        
+                          <a href="director.html">board of directors</a>
+                          <a href="dataprotection.html">data projection</a>
+                        </div>
+                      </div></li>
+                <li>
+                    <div class="dropdown">
+                        <a href ="">SERVICES</a>
+                        <div class="dropdown-content">
+                          <a href="road.html">Road, Bridge, Highway & Airstrip
+                          </a>
+                          <a href="industrial.html">Residential & Industrial Building</a>
+                          <a href="town.html">infrastructural & Town Development</a>
+                          <a href="irrigration.html">Irrigration & Drainage</a>
+                          <a href="water.html">Water Treatment Plant</a>
+                        </div>
+                      </div>
+                </li>      
+                <li><a href ="project.html">PROJECTS</a></li>
+                <li><a href ="timeline.html">PROJECT TIMELINE</a></li>
+                <li><a href ="career.html">CAREER</a></li>
+                <li><a href ="contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+        </section>
+       
+
+        <section class = career>
+            <div class = form>
+                <h2>JOB APPLICATION</h2>
+                <h3>APPLICATION IS WELCOME FROM SUITABLY QUALIFIED APPLICANT FOR JOB WITH DANTATA & SAWOE ANYTIME</h3>
+                
+
+    <form action="submit_form.php" method="post" enctype="multipart/form-data">
+      <label for="first_name">First Name:</label>
+      <input type="text" id="first_name" name="first_name" required><br>
+
+      <label for="last_name">Last Name:</label>
+      <input type="text" id="last_name" name="last_name" required><br>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required><br>
+
+      <label for="gender">Gender:</label>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+
+      <label for="marital_status">Marital Status:</label>
+      <select id="marital_status" name="marital_status" required>
+          <option value="single">Single</option>
+          <option value="married">Married</option>
+          <option value="divorced">Divorced</option>
+      </select><br>
+
+      <label for="phone_number">Phone Number:</label>
+      <input type="tel" id="phone_number" name="phone_number" required><br>
+
+      <label for="country">Country:</label>
+      <select id="country" name="country" required>
+          <!-- Add options for all countries here -->
+          <option value="country1">COUNTRY</option>
+          <option value="country2">Azerbaijan</option>
+          <option value="country3">Afghanistan</option>
+          <option value="country4">Azerbaijan</option>
+          <option value="country5">Armenia</option>
+          <option value="country6">Australia</option>
+          <option value="country7">Austria</option>
+          <option value="country8">Auckland</option>
+
+         
+      </select><br>
+    </div>
+
+
+      <label for="applying_for">Applying For:</label>
+      <input type="text" id="applying_for" name="applying_for" required><br>
+
+      <label for="resume">Upload Resume:</label>
+      <input type="file" id="resume" name="resume" required><br>
+
+      <label for="contact_address">Contact Address:</label><br>
+      <textarea id="contact_address" name="contact_address" rows="4" cols="40" required></textarea><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="40" required></textarea><br>
+
+      <input type="submit" value="Submit" size="80">
+  </form>            
+            </div>
+        </section>
+</body>
+</html>
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>town</title>
+    <link rel = "stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel ="stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class ="footer">
+        <nav>
+           <a href ="index.html"><img src="images/coffee.png.jpeg""></a>
+           <div class ="nav-links" id="navL inks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href ="index.html">HOME</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href ="">COMPANY</a>
+                        <div class="dropdown-content">
+        
+                          <a href="director.html">board of directors</a>
+                          <a href="dataprotection.html">data projection</a>
+                        </div>
+                      </div></li>
+                <li>
+                    <div class="dropdown">
+                        <a href ="">SERVICES</a>
+                        <div class="dropdown-content">
+                          <a href="road.html">Road, Bridge, Highway & Airstrip
+                          </a>
+                          <a href="industrial.html">Residential & Industrial Building</a>
+                          <a href="town.html">infrastructural & Town Development</a>
+                          <a href="irrigration.html">Irrigration & Drainage</a>
+                          <a href="water.html">Water Treatment Plant</a>
+                        </div>
+                      </div>
+                </li>      
+                <li><a href ="project.html">PROJECTS</a></li>
+                <li><a href ="timeline.html">PROJECT TIMELINE</a></li>
+                <li><a href ="career.html">CAREER</a></li>
+                <li><a href ="contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+    
+    
+        </section>
+    <section class ="town">
+        <div class ="town-dev">
+            <h2> INFRASTRUCTURAL & TOWN DEVELOPMENT</h2><br>
+            <p>
+                D&S is a leading company specializing in infrastructural & town development services. 
+                With a strong commitment to quality, innovation, and sustainability, 
+                D&S has earned a reputation for delivering comprehensive solutions 
+                that enhance the built environment and improve the quality of life for communities.
+
+                D&S offers a wide range of infrastructural development services, catering to both public and private sectors.
+                 They excel in designing, planning, and constructing critical infrastructure projects such as roads, bridges, highways, airports, and seaports. 
+                 By leveraging their expertise and state-of-the-art technology, D&S ensures that each project is executed efficiently,
+                  adhering to the highest safety and environmental standards.
+            </p>
+            <h3> WHAT MAKES US STAND OUT</h3>
+            <p>D&S's town development services focus on creating vibrant and sustainable urban spaces. 
+                They collaborate with municipalities, developers, and other stakeholders to envision and realize projects that optimize land use,
+                 promote economic growth, and enhance livability. 
+                From master planning and zoning to the development of residential, commercial, and mixed-use properties, 
+                D&S integrates innovative design, green building practices, and smart city solutions to shape inclusive and resilient communities.
+
+                Key Features of D&S's Services:
+                
+                Integrated Approach: D&S adopts a holistic approach, considering various aspects such as transportation,
+                utilities, environmental impact, and social factors to develop comprehensive solutions that meet the needs of the community.
+                <br>Sustainability: The company prioritizes sustainable practices throughout the project 
+                lifecycle. D&S incorporates green infrastructure, renewable energy systems, and efficient resource management to minimize environmental impact and promote long-term sustainability.
+                Stakeholder Engagement: D&S recognizes the importance of engaging with stakeholders, 
+                including local communities, government agencies, and relevant organizations. They ensure active participation and open communication to foster collaboration and address concerns effectively.
+                <br>Cutting-Edge Technology: Leveraging advanced technologies, D&S integrates tools 
+                like geographic information systems (GIS), Building Information Modeling (BIM), and data analytics to enhance project design, construction, and management processes, resulting in improved efficiency and accuracy.
+                <br>Quality Assurance: D&S is dedicated to delivering projects of the highest quality.
+                 Their robust quality control systems and rigorous inspections ensure that every aspect of the project meets industry standards and client expectations.
+                <br>Timely Delivery: Recognizing the importance of deadlines,
+                 D&S prioritizes efficient project management and effective coordination to deliver projects on time and within budget.<br>
+                In conclusion, D&S is a reputable company offering comprehensive Infrastructural & Town Development services. 
+                Through their commitment to quality, sustainability, and innovation, they strive to transform communities, create sustainable urban environments, and contribute to the overall development of regions they serve.
+                
+                 </p>
+        </div>
+    </section>
+</body>
+    <!-----JAVASCRIPT---->
+    <script>
+        var navLinks = document.getElementById("navL inks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    
+    </script>
+</html>

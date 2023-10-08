@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel = "stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+<link rel ="stylesheet" href ="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <section class ="footer">
+        <nav>
+           <a href ="index.html"><img src="images/coffee.png.jpeg""></a>
+           <div class ="nav-links" id="navL inks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+                <li><a href ="index.html">HOME</a></li>
+                <li>
+                    <div class="dropdown">
+                        <a href ="">COMPANY</a>
+                        <div class="dropdown-content">
+        
+                          <a href="director.html">board of directors</a>
+                          <a href="dataprotection.html">data projection</a>
+                        </div>
+                      </div></li>
+                <li>
+                    <div class="dropdown">
+                        <a href ="">SERVICES</a>
+                        <div class="dropdown-content">
+                          <a href="road.html">Road, Bridge, Highway & Airstrip
+                          </a>
+                          <a href="industrial.html">Residential & Industrial Building</a>
+                          <a href="town.html">infrastructural & Town Development</a>
+                          <a href="irrigration.html">Irrigration & Drainage</a>
+                          <a href="water.html">Water Treatment Plant</a>
+                        </div>
+                      </div>
+                </li>      
+                <li><a href ="project.html">PROJECTS</a></li>
+                <li><a href ="timeline.html">PROJECT TIMELINE</a></li>
+                <li><a href ="career.html">CAREER</a></li>
+                <li><a href ="contact.html">CONTACT</a></li>
+            </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()" ></i>
+        </nav>
+    
+    
+     <!-----JAVASCRIPT---->
+     <script>
+        var navLinks = document.getElementById("navL inks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    
+    
+    </script>
+</body>
+
+</html>
